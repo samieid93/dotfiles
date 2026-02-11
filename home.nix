@@ -76,7 +76,9 @@
         # Utilities
         ports = "lsof -i -P -n | grep LISTEN";
         myip = "curl -s ifconfig.me";
-        weather = "curl -s wttr.in";
+
+        # Claude Code with personal account
+        sclaude = "CLAUDE_CONFIG_DIR=~/.sclaude claude";
       };
     };
 
